@@ -1,0 +1,173 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* outline: 1px solid red; */
+}
+
+.section {
+   background-image: url(../img/men.png);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 100%;
+   margin: auto;
+   padding-top: 280px;
+   padding-bottom: 100px;
+}
+
+.wrapper {
+   max-width: 902px;
+   margin: auto;
+   text-align: center;
+}
+
+.first-logo {
+   width: 70px;
+   height: 65px;
+}
+
+.name {
+   color: white;
+   font-size: 50px;
+}
+
+.text {
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   color: white;
+   margin: 30px 0 300px 0;
+}
+
+p {
+   margin: 0 0 20px 0;
+}
+
+.wrapper-about {
+   max-width: 902px;
+   margin: auto;
+   text-align: center;
+}
+
+.spacing {
+   margin-bottom: 40px;
+}
+
+.about {
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   padding: 160px 0;
+}
+
+h2 {
+   font-family: 'Lato', sans-serif;
+   font-size: 30px;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 50px 0;
+}
+
+.border {
+   border: 1px solid black;
+}
+
+.section-three {
+   background-image: url(../img/pen.png);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 100%;
+   margin: auto;
+   font-family: 'Lato', sans-serif;
+   color: white;
+}
+.border-white {
+   border: 1px solid white;
+}
+
+h3 {
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 50px 0;
+}
+.icon {
+   padding: 30px 0;
+}
+
+.block-one,
+.block-three,
+.block-for,
+.block-six {
+   width: 383px;
+   display: inline-block;
+   padding: 80px 0 30px 35px;
+   color: white;
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+.block-two,
+.block-five {
+   width: 513px;
+   color: white;
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   text-transform: uppercase;
+   display: inline-block;
+   padding: 80px 0 30px 35px;
+}
+
+.block-one {
+   background-image: url(../img/one1.png);
+}
+
+.block-two {
+   background-image: url(../img/two2.png);
+
+}
+
+.block-three {
+   background-image: url(../img/three.png);
+}
+
+.block-for {
+   background-image: url(../img/for4.png);
+}
+
+.block-five {
+   background-image: url(../img/five5.png);
+}
+
+.block-six {
+   background-image: url(../img/six6.png);
+}
+
+li {
+   background-size: cover;
+   background-position: center center;
+   margin-bottom: 4px;
+}
+.btn {
+   width: 350px;
+   height: 60px;
+   background-color: #3c3c3c;
+   margin-bottom: 30px;
+   color: white;
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+.ellipse-img {
+   width: 30px;
+   height: 30px;
+   margin-right: 15px;   
+}
+
+.ellipse {
+   margin-top: 25px;
+   color:  #3c3c3c;
+}
