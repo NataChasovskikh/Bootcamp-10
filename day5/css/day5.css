@@ -1,0 +1,123 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: 1px solid red;
+}
+.section-one {
+   width: 100%;
+   background-image: linear-gradient(to right, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), url(../img/IMAGE.png);
+   background-size: cover;
+   background-position: center center;
+}
+.wrapper {
+   max-width: 940px;
+   margin: auto;
+   text-align: center;
+   padding: 50px 0;
+}
+.logo {
+   float: left;
+   display: block;
+   margin-right: 100px;
+}
+.logo::after {
+   content: "tajam"; 
+   width: 50px;
+   height: 50px;
+   vertical-align: top; 
+    padding-top: 15px;
+   text-transform: uppercase;
+   color: white;
+} 
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   color: aqua;
+}
+
+ul {
+   float: right;
+}
+li {
+   float: left;
+   list-style: none;
+   padding: 0 10px;
+   
+   
+   text-transform: uppercase;
+}
+header {
+   padding: 20px 0;
+}
+h2 {
+   color: white;
+   padding: 200px 0 30px 0;
+
+}
+h2::after {
+   content: "";
+   width: 50px;
+   height: 1px;
+   background-color: aliceblue;
+   display: block;
+   margin: auto;
+   margin-top: 30px;
+}
+.white {
+   color: white;
+}
+.btn {
+   width: 150px;
+   height: 50px;
+   background-color: #3c3c3c00;
+   margin: 30px 0;
+   color: aqua;
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   text-transform: uppercase;
+   border: 1px solid aqua;
+}
+.story {
+   width: 400px;
+   float: left;
+}
+.black {
+   color: black;
+}
+
+.clearfix:after {
+   content: '';
+   display: table;
+   clear: both;
+}
+.video {
+   background-image: linear-gradient(to right, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), url(../img/sity.png);
+   background-size: cover;
+   background-position: center center;
+   height: 550px;
+}
+/* .section {
+   width: 500px;
+   height: 500px;
+   background-image: linear-gradient(to left, #ff5f6c65,#FFC371),url(../img/depositphotos_14534069-stock-photo-perfect-sky-and-water-of.jpg);
+   background-size: cover;
+   line-height: 500px;
+}
+
+p {
+   text-align: center;
+
+}
+p::before {
+   content: "";
+   width: 50px;
+   height: 50px;
+   background-size: cover;
+   background-position: center;
+   display: inline-block;
+   background-image: url;
+} */
