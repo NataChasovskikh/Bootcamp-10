@@ -311,7 +311,7 @@ h4 {
 .quote-team:nth-child(4){
    margin-left: 35px;
 }
-.quote-team:nth-child(1)::before {
+.quote-team:first-child::before {
    content: "";
    background-image: url(../img/back@1X.png);
    display: inline-block;
@@ -322,9 +322,69 @@ h4 {
    width: 50px;
 
 }
+.klients {
+   text-align: left;
+   float: left;
+}
+.form {
+   width: 460px;
+   height: 200px;
+   display: block;
+}
+.form-name {
+   width: 460px;
+   height: 45px;
+   display: block;
+   margin: 20px 0;
+}
+.brends {
+   display: inline-block;
+   width: 480px;
+   float: right;
+}
 
+.brends-img {
+   list-style: none;
+   width: 238px;
+   height: 66px;
+   display: inline-block;
+}
+.sectoin-last {
+   width: 100%;
+   background-image: linear-gradient(to right, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), url(../img/IMAGE2.png);
+   background-size: cover;
+   background-position: center center;
+   
+}
+.last-logo {
+   display: inline-block;
+   width: 300px;
+   vertical-align: top;
+   text-align: left;
+   font-size: 14px;
 
+}
 
+.social {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   border: 1px solid white;
+   background-color: #acacac00;
+   list-style: none;
+   display: inline-block;
+   margin: 0 3px;
+   vertical-align: middle;
+    text-align: center;
+    line-height: 33px;
+}
+.bottom-spacing {
+   margin-bottom: 20px;
+}
+.info {
+   text-align: right;
+   vertical-align: bootom;
+}
 
 
 /* .team { */
