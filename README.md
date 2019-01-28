@@ -3,3 +3,4 @@
 [HomeWork3dop](https://natachasovskikh.github.io/Bootcamp-10/homework3dop/homework3dop.html)
 [Folders](https://github.com/NataChasovskikh/Bootcamp-10)
 [Maket2](https://natachasovskikh.github.io/Bootcamp-10/day6/day6.html)
+[Folder Maket2](https://github.com/NataChasovskikh/Bootcamp-10/tree/master/day6)
