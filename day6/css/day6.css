@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: 1px solid red;
+}
+.container {
+   width: 400px;
+   margin: auto; 
+}
+.menu {
+   width: 400px;
+   height: 50px;
+   margin: auto;   
+   position: relative; 
+   top: 50px;
+   background-color: aquamarine;
+}
+
+.container:hover .submenu{
+   display: block;
+   background-color: black; 
+   color: white;
+}
+.submenu {
+   position: relative;  
+   top: 50px;
+   color: red;
+   display: none;
+}
+
+
