@@ -1,87 +1,126 @@
+@font-face {
+   src: url(css/exo.medium.otf);
+   font-family: 'exo', sans-serif;
+}
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
 }
+
 .wrapper {
-   padding: 30px 0;
+   padding: 50px 0;
    max-width: 1200px;
    margin: auto;
    background-color: white;
    overflow: hidden;
+   font-family: 'exo', sans-serif;
+   position: relative;
+   overflow: hidden;
 }
+
 .text {
    display: inline-block;
    width: 59%;
    vertical-align: top;
-   text-align: left;
 }
+
 .text-red {
-   color: red;
+   color: #fb8686;
    font-size: 16px;
 }
+
 .gray {
    display: inline-block;
    width: 40%;
-   background-color: gray;
+   background-color: #ececec;
    height: 400px;
    overflow: hidden;
    position: relative;
-
-   
 }
+
 .redBack {
    background-color: red;
-   width: 600px;
+   width: 650px;
    position: relative;
    overflow: hidden;
    transform: rotate(40deg);
    height: 600px;
-   /* left: -200px;
-   bottom: -200px; */
+   opacity: 0.4;
 }
+
 .right {
    position: relative;
    right: -250px;
-    bottom: -140px;
-}
-.pikchers {
-   /* width: 1000px; */
-   /* background-color: antiquewhite; */
-   position: relative;
-   overflow: hidden;
+   bottom: -140px;
 }
 
 h2 {
-   padding-top: 200px;
-   text-align: center;
+   color: red;
+   font-size: 13px;
+   font-weight: 200;
+   margin-bottom: 20px;
 }
-p {
-   text-align: center;
+
+h3 {
+   font-size: 30px;
+   font-weight: 100;
+}
+
+h4 {
+   font-size: 20px;
+   font-weight: 100;
    margin: 30px 0;
 }
+
+span {
+   color: red;
+}
+
+p {
+   color: #939393;
+   margin: 30px 0;
+}
+
+.text-align {
+   text-align: center;
+}
+
+.text-macbook {
+   text-align: center;
+   margin-left: 50px;
+   display: inline-block;
+   width: 600px;
+   vertical-align: 127px;
+}
+
 .block {
    width: 300px;
    display: inline-block;
    margin: 100px 10px 100px 0;
 }
+
 .img {
    display: block;
    margin: auto;
 }
+
 .img-one {
    position: absolute;
    top: -25px;
    left: 0;
    background: transparent;
 }
+
 .img-two {
    position: absolute;
    top: 0;
    right: 10px;
    background: transparent;
 }
+
 .img-three {
    position: absolute;
    bottom: -130px;
@@ -89,13 +128,17 @@ p {
    background: transparent;
 }
 
+.white {
+   background-color: white;
+}
+
 .left {
    position: absolute;
    top: 78px;
-    left: -240px;
-    transform: rotate(45deg);
+   left: -284px;
+   transform: rotate(45deg);
 }
-}
+
 .macbook {
    display: block;
    position: absolute;
@@ -105,48 +148,3 @@ p {
    left: 50%;
    top: 50%;
 }
-.container {
-   position: relative;
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container {
-   width: 400px;
-   margin: auto; 
-}
-.menu {
-   width: 400px;
-   height: 50px;
-   margin: auto;   
-   position: relative; 
-   top: 50px;
-   background-color: aquamarine;
-}
-
-.container:hover .submenu{
-   display: block;
-   background-color: black; 
-   color: white;
-}
-.submenu {
-   position: relative;  
-   top: 50px;
-   color: red;
-   display: none;
-} */
-
-
