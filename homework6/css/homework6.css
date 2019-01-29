@@ -1,0 +1,106 @@
+* {
+   margin: 0;
+   padding: 0;
+   outline: 1px solid red;
+}
+.wrapper {
+   width: 960px;
+   padding: 20px 0;
+   margin: auto;
+   background-color: white;
+   
+}
+.nav-container {
+   display: flex;
+   justify-content: space-around;
+}
+
+a {
+   color: aqua;
+   text-decoration: none;
+   font-size: 20px;
+
+}
+.logo {
+width: 100px;
+height: 50px;
+justify-content: flex-start;
+}
+
+.nav {
+   display: flex;  
+   width: 500px;
+   height: 50px;
+   /* flex-direction: row; */
+   /* display: flex; */
+  flex-wrap: wrap;
+  /* height: 400px; */
+  /* align-content: space-between;  */
+  align-content: space-around;   
+   justify-content: flex-end;
+   flex-wrap: nowrap;
+}
+
+.nav li {
+   /* display: flex; */
+   list-style: none;
+   
+   /* align-content: flex-end; */ 
+   
+   /* justify-content: flex-end;  */
+}
+p, h2 {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+h2::after {
+   content: "";
+   width: 80px;
+   height: 3px;
+   background-color: red;
+   display: block;
+   margin: 20px auto 50px;
+}
+.section-one {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: space-around; 
+   /* justify-content: center; */
+   align-items: center;
+}
+.icon-wrapper {
+   display: flex; 
+   align-content: space-between;   
+   justify-content: center;
+   
+  
+
+}
+.icon-container {
+   width: 260px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+}
+
+.icon-one::before {
+   background-image: url(../img/ALARM@1X.png);
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 50px;
+   width: 50px;
+   margin: 20px;
+}
+
+.icon-two::before {
+   background-image: url(../img/LINE\ GRAPH@1X.png);
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 50px;
+   width: 50px;
+   margin: 20px;
+}
