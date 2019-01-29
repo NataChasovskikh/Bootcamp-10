@@ -1,0 +1,51 @@
+.wrapper {
+
+}
+.section-one {
+   padding: 27px 0 336px 0;
+   background-image: url(../img/Single\ slide@1X.png);
+}
+.container-nav {
+   width: 900px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+   width: 500px;
+   height: 500px;
+   position: relative;
+   background-color: aquamarine;
+   margin: auto;
+   overflow: hidden;
+}
+
+.box1 {
+   width: 500px;
+   height: 500px;
+   /* position: absolute; */
+   /* background-color: rgb(156, 90, 90);
+}
+.box2 {
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   top: 0;
+   background-color: rgb(65, 65, 114);
+   transition: all 2s ease;
+}
+.container:hover .box2 {
+   left: -500px;
+   transform: translate(500px);
+   transition: all 2s ease;
+
+} */ 

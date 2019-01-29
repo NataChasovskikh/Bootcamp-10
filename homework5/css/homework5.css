@@ -1,0 +1,178 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: 1px solid red;
+}
+
+.wrapper {
+   max-width: 1425px;
+   padding: 20px 0 40px 0;
+   margin: auto;
+   font-family: 'Roboto', sans-serif;
+}
+span {
+   color: #1abc9c;
+   font-weight: 900;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   color: #1abc9c;
+}
+
+.logo {
+   float: left;
+   text-transform: uppercase;
+   font-size: 30px;
+}
+
+ul {
+   float: right;
+}
+
+.nav {
+   float: left;
+   text-transform: uppercase;
+   font-size: 20px;
+   list-style: none;
+   margin-right: 10px;
+}
+
+header {
+   margin-bottom: 150px;
+}
+
+h2 {
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+}
+
+h2::after {
+   content: "";
+   width: 100px;
+   height: 5px;
+   background-color: #1abc9c;
+   display: block;
+   margin: 30px auto 50px;
+}
+.one {
+   background-image:    background-image: linear-gradient(to right, rgba(30, 8, 83, 0.815), #250f5e99), url(../img/women.png); 
+}
+
+h1 {
+   color: white;
+   /* text-align: center; */
+
+}
+
+.name {
+   width: 266px;
+   height: 40px;
+   background-color: #323232;
+   float: left;
+   color: white;
+   line-height: 50px;
+   text-transform: uppercase;
+   text-align: left;
+   padding-left: 10px;
+   font-size: 17px;
+
+}
+
+.menu {
+   width: 326px;
+   height: 320px;
+   background-color: #e8effc;
+   float: left;
+   margin: 0 30px 40px 0;
+   position: relative;
+}
+
+.submenu {
+   position: absolute;
+   top: 30%;
+   right: 30%;
+}
+
+.name-container {
+   position: relative;
+}
+
+.price {
+   width: 60px;
+   height: 40px;
+   background-color: #8c8c8c;
+   float: left;
+   color: white;
+   line-height: 50px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.photo-container {
+   background-color: #8c8c8c;
+}
+
+.photo {
+   width: 326px;
+   height: 320px;
+   margin: auto;
+   background-color: #8c8c8c;
+}
+
+.menu:hover .submenu-container {
+   background-color: gray;
+   display: block;
+}
+
+.menu:hover .name {
+   background-color: #1abc9c;
+}
+
+.menu:hover .price {
+   background-color: #7fd9c7;
+}
+
+.arrows {
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+}
+
+.add {
+   width: 155px;
+}
+
+li {
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   border: 1px solid white;
+}
+
+.pic {
+   display: inline;
+   padding: 10px 0 0 10px;
+}
+
+li:last-child {
+   display: block;
+
+}
+
+.submenu-container {
+   top: 0;
+   display: none;
+   width: 326px;
+   height: 320px;
+   position: absolute;
+   list-style: none;
+   opacity: 0.5;
+}
