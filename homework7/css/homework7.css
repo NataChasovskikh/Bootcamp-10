@@ -1,0 +1,204 @@
+@font-face {
+   src: url(../fonts/KaushanScript-Regular.ttf);
+   font-family:'Kaushan';
+   font-size: 25px;
+   font-weight: 200;
+}
+@font-face {
+   src: url(../fonts/Montserrat-Regular.ttf);
+   font-family:'Montserrat';
+   font-size: 15px;
+   font-weight: 200;
+}
+@font-face {
+   src: url(../fonts/RobotoSlab-Bold.ttf);
+   font-family:'RobotoBold';
+   font-size: 25px;
+   font-weight: 700;
+}
+@font-face {
+   src: url(../fonts/RobotoSlab-Regular.ttf);
+   font-family:'Roboto-Reg';
+   font-size: 15px;
+   font-weight: 400;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   /* outline: 1px solid rgb(224, 115, 115); */
+}
+
+.wrapper {
+   max-width: 960px;
+   padding: 30px 0;
+   background-color: white;
+   margin: 0 auto 50px;
+}
+
+.nav-container {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 70px;
+}
+
+.nav {
+   width: 400px;
+   font-weight: 600;
+}
+
+.nav-ul {
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+   font-family:'Montserrat';
+}
+
+a {
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+}
+
+a:hover {
+   color: #fed136;
+}
+
+.logo {
+   font-family:'Kaushan';
+   font-size: 40px;
+}
+
+li {
+   list-style: none;
+}
+
+h1 {
+   font-family:'RobotoBold';
+   text-transform: uppercase;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.icon-container {
+   display: flex;
+   justify-content: space-around;
+}
+
+.icon-box {
+   width: 300px;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.style {
+   font-family:'Kaushan';
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.icon-name {
+   font-family:'RobotoBold';
+   font-size: 20px;
+}
+
+.icon-text {
+   font-family:'Roboto-Reg';
+}
+
+.icon {
+   border: 3px solid #fed136;
+   border-radius: 50%;
+   padding: 15px;
+   margin: auto;
+} 
+
+.form {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.form-container {
+   display: flex;
+   justify-content: space-around;
+}
+
+input {
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   padding: 0 10px;
+   text-transform: uppercase;
+   margin-bottom: 35px;
+}
+.btn {
+   width: 200px;
+   height: 55px;
+   border-radius: 5px;
+   background-color: #fed136;
+   font-family:'Montserrat';
+   color: white;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-weight: 600;
+   display: block;
+   margin: auto;
+}
+
+textarea {
+   width: 455px;
+   height: 210px;
+   text-transform: uppercase;
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 25px;
+}
+h2 {
+   font-family:'RobotoBold';
+   text-transform: uppercase;
+   margin-bottom: 30px;
+   text-align: center;
+  
+}
+.container {
+   background-color: black;
+   background-image: url(../img/Map.png);
+   color: white;
+}
+
+.visible {
+   opacity: 0.9;
+}
+
+input:focus {
+   outline: 0;
+   padding: 3px;
+}
+
+input[type="name"]:valid {
+border-color: green;
+}
+
+.form input[type="name"]:invalid {
+   border-color: red;
+}
+
+.form input [type="e-mail"]:required:valid {
+   border-color: green;   
+}
+
+.form input [type="e-mail"]:invalid {
+      border-color: red;
+}
+
+.form input [type="subject"]:valid {
+   border-color: green;   
+}
+
+.form input [type="subject"]:invalid {
+      border-color: red;
+}
+
