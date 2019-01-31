@@ -3,7 +3,82 @@
    padding: 0;
    outline: 1px solid red;
 }
-.wrapper {
+
+.center {
+   width: 33.3%;
+   height: 200px;
+   background-color: rgb(207, 72, 72);
+}
+.left {
+   width: 33.3%;
+   height: 200px;
+   background-color: rgb(48, 124, 81);
+}
+.right {
+   width: 33.3%;
+   height: 200px;
+   background-color: rgb(140, 39, 153);
+}
+
+@media (min-width: 300px) and 
+
+/* @media (min-width: 1024px) {
+   .center {
+      width: 80%;
+      background-color: blueviolet;
+   }
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrapper {
 width: 960px;
 padding: 20px 0;
 margin: auto;
@@ -21,7 +96,14 @@ margin: auto;
    
   
  }
-.nav-container {
+
+ /* прописать reem:здесь 1 rem будет 16
+ html {
+    font-size: 16px;
+ } */
+
+
+/* .nav-container {
    display: flex;
    justify-content: space-around;
 }
@@ -43,23 +125,23 @@ a {
    height: 50px;
    /* flex-direction: row; */
    /* display: flex; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* height: 400px; */
   /* align-content: space-between;  */
-  align-content: space-around;   
+  /* align-content: space-around;   
    justify-content: flex-end;
    flex-wrap: nowrap;
 }
 
-.nav li {
+.nav li { */
    /* display: flex; */
-   list-style: none;
-   
+   /* list-style: none;
+    */
    /* align-content: flex-end; */ 
    
    /* justify-content: flex-end;  */
-}
-h1 {
+/* } */ */
+/* h1 {
    font-size: 40px;
    margin-top: 100px;
 }
@@ -87,4 +169,4 @@ p {
    position: absolute;
    top: 380px;
    left: 45%;
-}
+} */ */
