@@ -1,6 +1,7 @@
 * {
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
    outline: 1px solid rgb(245, 165, 165);
 }
 .wrapper {
@@ -128,16 +129,19 @@ p {
    display: flex;
    flex-direction: column;
    align-content: center;
-   color: white; 
+    
     
 }
 
 .section4-pic1 {
-   width: 40px;
-   height: 30px;
+   width: 75px;
+   height: 40px;
    background-color: #3d506f;
    margin: 0 5px;
    padding: 0 5px;
+   color: white;
+   margin: auto;
+   margin-bottom: 20px;
 }
 .section4-pic2 {
    width: 70px;
@@ -145,6 +149,8 @@ p {
    background-color: #3d506f;
    margin: 0 5px;
    padding: 0 5px;
+   color: white;
+   margin: auto;
 }
 .section4-pic3 {
    width: 40px;
@@ -152,6 +158,8 @@ p {
    background-color: #3d506f;
    margin: 0 5px;
    padding: 0 5px;
+   color: white;
+   margin: auto;
 }
 .section4-pic4 {
    width: 100px;
@@ -159,10 +167,12 @@ p {
    background-color: #3d506f;
    margin: 0 5px;
    padding: 0 5px;
+   color: white;
+   margin: auto;
 }
 
 /* размер мобильный 768 */
-@media (min-width: 768px) and (max-width: 960px){
+@media (min-width: 768px) {
    .wrapper {
       max-width: 960px;
    }
@@ -191,8 +201,6 @@ p {
       flex-direction: row;
       justify-content: space-around;
    }
-
-
 
   
 }
