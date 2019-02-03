@@ -207,3 +207,23 @@ img {
 .product:hover .price {
    background-color: #7fd9c7;
 }
+
+
+
+
+
+<div class="pic">
+               <img src="img/Layer 18@1X.png" alt="men">
+               <div class="img-services">
+                  <div class="img-hover"></div>
+                  <div class="second">
+                     <ul class="icon-img">
+                        <li class="icon-li"></li>
+                        <li class="icon-li"></li>
+                        <li class="icon-li"></li>
+                     </ul>
+                  </div>
+               </div>
+               <p class="icon-name">Matthew Dix</p>
+               <p>Graphic Design</p>
+            </div>

@@ -2,14 +2,13 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
 }
 
 .wrapper {
-   max-width: 1425px;
-   padding: 20px 0 40px 0;
+   max-width: 960px;
    margin: auto;
-   font-family: 'Roboto', sans-serif;
+   margin-bottom: 30px;
 }
 span {
    color: #1abc9c;
@@ -34,6 +33,12 @@ a:hover {
 ul {
    float: right;
 }
+.text {
+   margin: 20px 0;
+   font-size: 14px;
+   font-weight: 300;
+   opacity: 0.7;
+}
 
 .nav {
    float: left;
@@ -44,11 +49,15 @@ ul {
 }
 
 header {
-   margin-bottom: 150px;
+   padding: 20px 60px;
+}
+.two {
+   background-color: #e9f0fd;
 }
 
+
 h2 {
-   font-size: 40px;
+   font-size: 30px;
    text-transform: uppercase;
    font-family: 'Roboto', sans-serif;
    text-align: center;
@@ -62,15 +71,23 @@ h2::after {
    display: block;
    margin: 30px auto 50px;
 }
+
 .one {
-   background-image:    background-image: linear-gradient(to right, rgba(30, 8, 83, 0.815), #250f5e99), url(../img/women.png); 
-}
-
-h1 {
+   background-image: linear-gradient(to top, rgba(55, 58, 63, 0.7), rgba(89, 92, 95, 0.7)),url(../img/slide4.jpg); 
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 130px 0 140px 0;
+   text-align: center;
    color: white;
-   /* text-align: center; */
-
+} 
+.clearfix:after {
+   content: '';
+   display: table;
+   clear: both;
 }
+
+
 
 .name {
    width: 266px;
@@ -87,9 +104,9 @@ h1 {
 }
 
 .menu {
-   width: 326px;
-   height: 320px;
-   background-color: #e8effc;
+   width: 30%;
+   /* height: 320px; */
+   /* background-color: #e8effc; */
    float: left;
    margin: 0 30px 40px 0;
    position: relative;
@@ -116,9 +133,9 @@ h1 {
    text-align: center;
 }
 
-.photo-container {
+/* .photo-container {
    background-color: #8c8c8c;
-}
+} */
 
 .photo {
    width: 326px;
@@ -128,7 +145,7 @@ h1 {
 }
 
 .menu:hover .submenu-container {
-   background-color: gray;
+   background-color: black;
    display: block;
 }
 
@@ -147,15 +164,26 @@ h1 {
 }
 
 .add {
-   width: 155px;
+   width: 149px;
 }
+/* .addImg {
+   border: 3px solid white;
+} */
 
 li {
-   width: 50px;
    height: 50px;
    display: inline-block;
    border: 1px solid white;
+   margin-bottom: 5px;
 }
+li:hover {
+   background-color: aqua;
+}
+.addImg:hover {
+   background-color: black;
+   opacity: 1;
+}
+
 
 .pic {
    display: inline;
@@ -169,6 +197,7 @@ li:last-child {
 
 .submenu-container {
    top: 0;
+   /* right: 25%; */
    display: none;
    width: 326px;
    height: 320px;
