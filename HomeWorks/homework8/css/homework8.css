@@ -30,7 +30,7 @@
 }
 
 .wrapper {
-   min-width: 320px;
+   max-width: 480px;
    margin: auto;
    padding: 20px 0;
 }
@@ -126,9 +126,25 @@ h2 {
 .section2img2,
 .section2img3,
 .section2img4 {
+   width: 130px;
+   height: 150px;
    border-radius: 50%;
    position: relative;
 }
+
+/* .section2img1::after {
+   content: "";
+   background-image: url(../img/11.png);
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 30px;
+   width: 50px;
+   vertical-align: -17px;
+   padding: 15px;
+   background-color: #4f9c8b;
+   margin-left: 15px;
+} */
 
 .cirkleImg1 {
    background-color: #ff4e50;
@@ -136,7 +152,7 @@ h2 {
    border: 4px solid white;
    padding: 5px;
    position: absolute;
-   bottom: -185px;
+   bottom: -32%;
    right: 30%;
 }
 
@@ -159,7 +175,7 @@ h3 {
    padding: 5px;
    position: absolute;
    border: 4px solid white;
-   bottom: -185px;
+   bottom: -75%;
    right: 30%;
 }
 
@@ -169,7 +185,7 @@ h3 {
    padding: 5px;
    position: absolute;
    border: 4px solid white;
-   bottom: -414px;
+   bottom: -122%;
    right: 30%;
 }
 
@@ -179,7 +195,7 @@ h3 {
    padding: 5px;
    position: absolute;
    border: 4px solid white;
-   bottom: -185px;
+   bottom: -165%;
    right: 30%;
 }
 
