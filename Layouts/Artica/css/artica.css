@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   outline: 1px solid rgb(245, 165, 165);
+   /* outline: 1px solid rgb(245, 165, 165); */
 }
 .wrapper {
    max-width: 480px;
@@ -23,14 +23,32 @@
    margin-bottom: 40px;
 }
 .cirkle {
-   width: 17px;
-   height: 16px;
-   border: 1px solid black;
+   width: 13px;
+   height: 13px;
+   border: 1px solid white;
    border-radius: 50%;
+   margin: 30px auto;
+  
 }
-.cirkle::after {
+.cirkle::before {
+   content: "";
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin: 5px 0 0 -104px;
 
 }
+.cirkle::after {
+   content: "";
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin: -1px 0 0 16px;
+
+}
+
 .section2-p-text {
    font-size: 13px;
    text-align: center;
@@ -49,7 +67,7 @@ h2 {
 
 }
 p {
-   margin-bottom: 20px;
+   margin-bottom: 25px;
 }
 
 .btn {
@@ -71,19 +89,36 @@ p {
    background-color: #222c40;
    text-align: center;
 }
-.cirkle {
-   margin: 30px;
-}
+
 .section1-text {
    margin-bottom: 20px;
    color: white;
 }
 .cirkle2 {
-   width: 17px;
-   height: 16px;
-   border: 1px solid black;
+   width: 12px;
+   height: 12px;
+   border: 1px solid #546279;
    border-radius: 50%;
-   margin-bottom: 20px;
+   margin: 30px auto;
+}
+
+.cirkle2::before {
+   content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #546279;
+    display: block;
+    margin: 5px 0 0 -104px;
+
+}
+.cirkle2::after {
+   content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #546279;
+    display: block;
+    margin: -1px 0 0 16px;
+
 }
 .icon-img {
    margin-bottom: 15px;
@@ -135,9 +170,7 @@ p {
 .section4-container-pic {
    display: flex;
    flex-direction: column;
-   align-content: center;
-    
-    
+   align-content: center; 
 }
 .section4-pic1, .section4-pic2, .section4-pic3, .section4-pic4 {
    width: 150px;
@@ -156,22 +189,19 @@ p {
    width: 200px;
    height: 200px;
    background-color: #546278;
-   margin: 0 auto 10px
-
+   margin: 0 auto 10px;
 }
 .section5 {
    background-color: #161f32;
    padding: 10px 0;
    display: flex;
    flex-direction: column;
-
 }
 .section5box {
    width: 200px;
    height: 200px;
    background-color: #546278;
-   margin:  auto;
-   
+   margin:  auto;   
 }
 .section4container2 {
    display: none;
@@ -184,6 +214,7 @@ p {
 h3 {
    font-size: 16px;
    margin-bottom: 15px;
+   text-align: center;
 
 }
 .section5text {
@@ -197,6 +228,14 @@ h3 {
    border: 1px solid white;
    border-radius: 10px;
 }
+.section5text1::before {
+   content: "";
+   background-image: url(../img/ClockIcon.png);
+   posi
+
+}
+
+
 
 
 
