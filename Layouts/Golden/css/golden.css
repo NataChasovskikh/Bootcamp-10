@@ -10,8 +10,7 @@
    padding: 10px 0;
 }
 
-.header {
-  
+.header {  
    display: flex;
    justify-content: space-between;
    width: 90%;
@@ -58,6 +57,7 @@ h1 {
    color: white;
    border: none;
    border-radius: 3px;
+   text-transform: uppercase;
 }
 .section2box1::before {
    content: "";
@@ -134,7 +134,8 @@ h2 {
    width: 80%;
 }
 .section3 {
-   text-align: center;   
+   text-align: center;
+   background-color: #f7f7f7;
 }
 .section3text {
    font-size: 13px;
@@ -144,7 +145,7 @@ h2 {
 .section3box {
    display: flex;
    flex-direction: column;
-   margin: auto;
+   /* margin: auto; */
    
 }
 .section3text1 {
@@ -159,12 +160,119 @@ h2 {
 }
 
 .section3pic {
-   width: 250px;
-   height: 350px;
+   /* width: 250px; */
+   /* height: 350px; */
    margin-bottom: 15px;
 }
-.section3img {
+.section3 img {
    max-width: 100%;
+}
+.section4 {
+   text-align: center;
+}
+.container {
+   width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+.pic {
+   /* border: 4px solid #cfcece; */
+   /* border-radius: 50%;  */
+   width: 100%;
+   /* height: 150px;  */
+   /* position: relative;  */
+   /* overflow: hidden; */
+   margin: auto;
+}
+.pic img {
+   border: 4px solid #cfcece;
+   border-radius: 50%; 
+
 }
 
 
+.TextBox {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+h3 {
+   margin-bottom: 20px;
+}
+.TextBox p {
+   margin-bottom: 15px;
+}
+.TextRight {
+   text-align: right;
+}
+.TextPic {
+   background-color: #fed136;
+   color: white;
+   padding: 15px 25px;
+   text-align: center;
+   font-size: 25px;
+   font-weight: 700;
+}
+.pic::after {
+   content: "";
+   width: 1px;
+   height: 100px;
+   display: block;
+   margin: 142 auto;
+   background-color: red;
+}
+
+
+@media (min-width: 768px) {
+   .wrapper {
+      max-width: 960px;
+   }
+   .nav li {         
+      font-size: 18px;
+   }
+   .nav {      
+      flex-direction: row;
+   }
+   .section1text {
+      font-size: 20px;
+   }
+   h1 {
+      font-size: 28px;
+   }
+   .btn {
+      font-size: 13px;
+      width: 120px;
+   }
+   .section2container {
+      display: flex;
+   }
+   .space {
+      margin-right: 15px;
+      /* width: 33,33%; */
+   }
+   .section3container {
+      display: flex;
+      justify-content: space-around;
+   }
+   .container {
+      flex-direction: row;
+      width: 70%;
+      margin-bottom: 30px;
+   }
+   .TextLeft {
+      width: 40%;
+   }
+   .pic {
+      width: 33%;
+   }
+   .TextRightdiv:nth-of-type(4) {
+      order: 1;
+   }
+   .container img {
+      left: 0%;
+   }
+   .TextPic {
+      padding: 13px 31px;
+   }

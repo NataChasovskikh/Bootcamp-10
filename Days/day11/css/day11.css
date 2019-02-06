@@ -3,9 +3,13 @@
    padding: 0;
    box-sizing: border-box;
 }
-html {
+
+
+
+
+/* html {
    scroll-behavior: smooth;
-}
+} */
 /* #one {
    background-color: blueviolet;
    width: 100%;
@@ -23,7 +27,7 @@ html {
 
 } */
 
-.one {
+/* .one {
    background-color: blueviolet;
    width: 400px;
    height: 100px;
@@ -42,7 +46,7 @@ html {
 }
 .click {
    display: none;
-}
+} */
 
 
 

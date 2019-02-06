@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.wrapper {
+   max-width: 480px;
+   margin: auto;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   padding: 10px;
+}
+.section {
+   background-color: #fff;
+}
+.menu {
+   width: 300px;
+   display: flex;
+   justify-content: space-around;
+   color:white;
+   list-style: none;
+}
+.logo {
+   display: none;
+}
