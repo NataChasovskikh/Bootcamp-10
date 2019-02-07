@@ -1,0 +1,14 @@
+.icon {
+   fill: blueviolet;
+   background-color: rgb(176, 211, 176);
+   opacity: 0.5;
+   width: 200px;
+   height: 200px;
+}
+.icon:hover {
+   background-color: #fff;
+   fill: aqua;
+}
+.tyruj {
+   -webkit-box-sizing: border-box;
+}
