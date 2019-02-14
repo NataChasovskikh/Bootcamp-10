@@ -1,6 +1,7 @@
 * {
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
    /* outline: 1px solid #f38181; */
 }
 
@@ -83,10 +84,13 @@ img {
 }
 
 .icon-li {
-   width: 30px;
-   height: 30px;
+   width: 56px;
+   height: 56px;
    background-color: #f3c210;
    border: 1px solid rgb(77, 23, 23);
+}
+.icon-img-sec {
+   width: 100%;
 }
 
 .icon-li:hover {
@@ -104,13 +108,13 @@ img {
 
 a {
    text-decoration: none;
-   color: aqua;
+   color: #95e1d3;
    font-size: 20px;
 }
 
 a:hover {
    color: #f38181;
-   border-bottom: 1px solid #f38181;
+   border-bottom: 3px solid #f38181;
 }
 
 .logo {
